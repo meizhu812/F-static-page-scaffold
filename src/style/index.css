@@ -5,16 +5,101 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
   font-size: 16px;
 }
 
-* {
-  box-sizing: border-box;
+.header-container {
+  background-color: #3b5998;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.register-header {
+  width: 1080px;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-left-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.register-button {
+  margin-left: 8px;
+  padding: 4px 10px;
+  border: 1px transparent;
+  border-radius: 2px;
+  color: white;
+  background-color: #42b72a;
+  font-size: 12px;
+}
+
+.join-login-dropdown {
+  position: relative;
+  font-size: 12px;
+}
+
+.join-login-dropdown::after {
+  content: "";
+  display: inline-block;
+  top: 50%;
+  margin-left: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+.register-body {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.register-selection {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.register-selection > article {
+  flex: 0 0 530px;
+  text-align: center;
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+.simple-image {
+  margin: 20px;
+}
+
+.simple-caption {
+  margin: 10px;
+}
+
+.simple-description {
+  margin: 0 36px;
+  color: #666666;
+}
+
+.simple-button {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  background-color: #e9ebee;
 }
