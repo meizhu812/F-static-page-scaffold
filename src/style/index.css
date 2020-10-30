@@ -11,7 +11,7 @@ body {
   font-size: 16px;
 }
 
-.header-container {
+.header {
   background-color: #3b5998;
 }
 
@@ -62,7 +62,7 @@ body {
   border-top: 5px solid white;
 }
 
-.register-body {
+.main-content {
   width: 1080px;
   margin: 0 auto;
 }
